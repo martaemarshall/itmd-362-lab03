@@ -176,3 +176,30 @@ textarea {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
 }
+
+/* ===== CODE BEGINS ===== */
+/* ===== BASE STYLES ===== */
+html {
+  font-size: 1.125em; /* 18px / 16px = 1.125em */
+  line-height: 1.222em; /* 22px is 1 gridline | 22px / 18px = 1.222em */
+  font-family: helvetica;
+  background-image: url('bbwallpaper.jpg');
+}
+
+h1 {
+  font-size: 1.575em; /* 25.2 */
+  line-height: 1.746em;
+  padding-top: 1.746em;
+}
+
+body {
+  font-size: 1.383em; /*22.128*/
+  line-height: 1.988em;
+  text-align: center;
+  background: rgba(255,255,2555,0.75);
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
